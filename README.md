@@ -27,6 +27,5 @@ CONTROLLERS AND VIEWS:
 
 VALIDATIONS:
 <!-- - There cannot be duplicate Owners (unique first names) -->
-- Owners must be older than 18
 <!-- - Pet cannot be added if the type is not a dog, cat, or bird -->
 <!-- - User sees a message to verify that a Pet/Owner was successfully, or unsuccessfully, created -->
