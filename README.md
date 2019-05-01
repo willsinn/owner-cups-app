@@ -15,7 +15,6 @@ Deliverables:
 MODELS:
 
 - Owner has a first name, last name, age, and email
-- Owner has many pets
 - Pet has a name and size (small, medium, large)
 - Pet belongs to a User
 
