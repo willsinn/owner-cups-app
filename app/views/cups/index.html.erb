@@ -1,0 +1,7 @@
+<h1>All Cups</h1>
+<ul>
+<%@cups.each do |cup|%>
+<li><%= link_to cup.name, cup_path(cup)%></li>
+
+<%end%>
+</ul>

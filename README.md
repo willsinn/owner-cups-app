@@ -14,19 +14,19 @@ Deliverables:
 
 MODELS:
 
-- Owner has a first name, last name, age, and email
-- Pet has a name and size (small, medium, large)
-- Pet belongs to a User
+<!-- - Owner has a first name, last name, age, and email
+- Cup has a name and size (small, medium, large)
+- Cup belongs to a User -->
 
 CONTROLLERS AND VIEWS:
-- User can do full CRUD on an Owner
-- User can do full CRUD on a Pet
-- Owner and Pet index pages link to show page
-- Custom route allows users to see all Owners with 2 or more pets
+<!-- - User can do full CRUD on an Owner
+- User can do full CRUD on a Pet -->
+<!-- - Owner and Pet index pages link to show page -->
+- Custom route allows users to see all Owners with 2 or more cups
 
 
 VALIDATIONS:
-- There cannot be duplicate Owners (unique first names)
+<!-- - There cannot be duplicate Owners (unique first names) -->
 - Owners must be older than 18
-- Pet cannot be added if the type is not a dog, cat, or bird
-- User sees a message to verify that a Pet/Owner was successfully, or unsuccessfully, created
+<!-- - Pet cannot be added if the type is not a dog, cat, or bird -->
+<!-- - User sees a message to verify that a Pet/Owner was successfully, or unsuccessfully, created -->

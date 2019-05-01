@@ -1,0 +1,14 @@
+<h1>Edit Cup</h1>
+<%=form_for @cup do |f|%>
+<%=f.label 'name'%>
+<%=f.text_field 'name'%>
+<br>
+<%=f.label 'size'%>
+<%=f.text_field 'size'%>
+<br>
+<%=f.collection_select(:owner_id, Owner.all, :id, :full_name)%>
+<br>
+
+<%=f.submit 'save'%>
+<br>
+<%end%>
